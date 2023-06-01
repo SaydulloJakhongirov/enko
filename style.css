@@ -21,6 +21,7 @@ a {
     max-width: 1140px;
     margin: auto;
     font-family: 'Roboto';
+    padding: 0 20px;
 }
 
 .logo {
@@ -35,16 +36,21 @@ a {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 48px;
+    gap: 48px;  
+    margin-left: 360px;
 }
 
 header {
-    max-width: 1024px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+
 }
+
+.btn-mobile {
+    display: none;
+}
+
 
 .number {
     text-decoration: none;
@@ -58,31 +64,18 @@ header {
 .paragraph {
     display: flex;
     justify-content: space-between;
+    padding-top: 190px;
 }
 
 .health {
-   display: flex;
-   align-items: center;
-   padding-top: 35px;
+    margin-top: 40px;
 }
 
-.get {
-    position: relative;
-    top: 50px;
-    left: 50px;
-}
 
 .blue {
-    margin-top: 130px;
-    font-size: 179px;
-    line-height: 140px;
+    font-size: 169px;
+    line-height: 138px;
     letter-spacing: 20px;
-}
-
-@media screen and (max-width: 10000px) {
-    .burger {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -90,24 +83,25 @@ header {
         display: none;
     }
 
-    .get{
-        margin-left: 350px;
+
+    .btn-mobile {
+        display: block;
+        padding: 10px 15px;
+        border-radius: 10px;
+        background: none;
+        outline: none;
+        color: #88E53E;
+        border: 1px solid #88E53E;
+    }
+    .blue {
+        font-size: 100px;
+        line-height: 90px;
     }
 
-    .blue{
-        line-height: 55px;
-    }
-
-    .health{
+    .health {
         text-align: center;
-        margin-top: 160px;
     }
 
-    .group h2{
-        font-size: 70px;
-        text-align: center;
-        margin-top: 175px;
-    }
 
     .burger {
         position: relative;
@@ -170,21 +164,43 @@ header {
     }
 }
 
-@media screen and (max-width: 600px) {
-    .group h2{
-        position: relative;
-        margin-top: 60px;
-        left: -85px;
-        font-size: 30px;
+@media screen and (max-width: 790px) {
+    .paragraph {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 80px;
     }
 
-    .health{
-        position: relative;
-        left: 100px;
+    .blue {
+        font-size: 80px;
+        line-height: 70px;
+        margin-bottom: 20px;
+    }
+
+    .health {
+        margin: 0 auto;
         font-size: 20px;
+        margin-bottom: 20px;
     }
 
-    .get{
-        margin-left: 100px;
+    .get {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .blue {
+        font-size: 60px;
+        line-height: 50px;
+    }
+
+    .health {
+        font-size: 16px;
+    }
+
+    .get {
+        font-size: 16px;
     }
 }
