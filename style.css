@@ -21,11 +21,12 @@ a {
     max-width: 1140px;
     margin: auto;
     font-family: 'Roboto';
-    padding: 0 10px;
+    padding: 0 16px;
 }
 
 .logo {
-    margin: 30px;
+    /* margin: 30px; */
+    padding-top: 20px;
 }
 
 .color {
@@ -77,6 +78,30 @@ header {
     line-height: 138px;
     letter-spacing: 20px;
 }
+.hero-section{
+    width: 100%;
+    background-color: #C0E8C0;
+    display: flex;
+    align-items: center;
+}
+
+.section-image{
+   background-size: cover;
+   z-index: 10;
+   padding: 0 16px;
+}
+
+.hero-text{
+    text-align: center;
+    margin-left: 180px;
+    color: #004E35;
+    line-height: 58px;
+}
+
+.protect{
+    font-size: 62px;
+}
+
 
 @media screen and (max-width: 1000px) {
     .head {
@@ -146,28 +171,6 @@ header {
     }
 }
 
-.hero-section{
-    width: 100%;
-    background-color: #C0E8C0;
-    display: flex;
-    align-items: center;
-}
-
-.section-image{
-   background-size: cover;
-   z-index: 10;
-}
-
-.hero-text{
-    text-align: center;
-    margin-left: 180px;
-    color: #004E35;
-    line-height: 58px;
-}
-
-.protect{
-    font-size: 62px;
-}
 
 @media screen and (max-width: 1100px) {
     .hero-section{
@@ -193,13 +196,13 @@ header {
 
 @media screen and (max-width: 600px) {
     .theme{
-        width: 500px;
+        max-width: 500px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .theme{
-        width: 450px
+        max-width: 450px
     }
 }
 
