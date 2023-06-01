@@ -21,7 +21,7 @@ a {
     max-width: 1140px;
     margin: auto;
     font-family: 'Roboto';
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .logo {
@@ -110,7 +110,7 @@ header {
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
-        padding-top: 80px;
+        padding-top: 120px;
     }
 
     .blue {
