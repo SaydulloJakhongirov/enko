@@ -180,18 +180,33 @@ header {
 
     .hero-text{
        margin-left: -15px;
+       padding-top: 150px;
+    }
+
+    .theme{
+        width: 960px;
     }
 
 }
 
+@media screen and (max-width: 900px) {
+    .theme{
+        width: 785px;
+    }
+}
+
 @media screen and (max-width: 790px) {
     .protect{
-        font-size: 40px;
+        font-size: 50px;
     }
      .hero-text{
-        margin-top: 100px;
+        margin-top: 10px;
         line-height: 40px;
      }
+
+     .theme{
+       width: 665px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -202,12 +217,12 @@ header {
 
 @media screen and (max-width: 500px) {
     .theme{
-        max-width: 450px
+        max-width: 397px
     }
 }
 
 @media screen and (max-width: 400px) {
     .theme{
-        width: 340px;
+        width: 536px;
     }
 }
