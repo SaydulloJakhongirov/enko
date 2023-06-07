@@ -24,16 +24,11 @@ a {
     padding: 0 16px;
 }
 
-.logo {
-    /* margin: 30px; */
-    padding-top: 20px;
-}
-
 .color {
     color: #88E53E;
 }
 
-.head {
+.navbar {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -45,7 +40,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    padding: 30px 0;
 }
 
 .btn-mobile {
@@ -104,7 +99,7 @@ header {
 
 
 @media screen and (max-width: 1000px) {
-    .head {
+    .navbar{
         display: none;
     }
 
