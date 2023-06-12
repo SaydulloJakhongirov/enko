@@ -32,7 +32,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 48px;  
+    gap: 48px;
     margin-left: 360px;
 }
 
@@ -73,33 +73,34 @@ a {
     line-height: 138px;
     letter-spacing: 20px;
 }
-.image-section{
+
+.image-section {
     width: 100%;
     background-color: #C0E8C0;
     display: flex;
     align-items: center;
 }
 
-.section-image{
-   background-size: cover;
-   z-index: 10;
-   padding: 0 16px;
+.section-image {
+    background-size: cover;
+    z-index: 10;
+    padding: 0 16px;
 }
 
-.hero-text{
+.hero-text {
     text-align: center;
     margin-left: 180px;
     color: #004E35;
     line-height: 58px;
 }
 
-.protect{
+.protect {
     font-size: 62px;
 }
 
 
 @media screen and (max-width: 1000px) {
-    .navbar{
+    .navbar {
         display: none;
     }
 
@@ -113,6 +114,7 @@ a {
         color: #88E53E;
         border: 1px solid #88E53E;
     }
+
     .blue {
         font-size: 100px;
         line-height: 90px;
@@ -168,56 +170,99 @@ a {
 
 
 @media screen and (max-width: 1100px) {
-    .image-section{
+    .image-section {
         display: flex;
         flex-direction: column;
     }
 
-    .hero-text{
-       margin-left: -15px;
-       padding-top: 150px;
+    .hero-text {
+        margin-left: -15px;
+        padding-top: 150px;
     }
 
-    .theme{
+    .theme {
         width: 960px;
     }
 
 }
 
 @media screen and (max-width: 900px) {
-    .theme{
+    .theme {
         width: 785px;
     }
 }
 
 @media screen and (max-width: 790px) {
-    .protect{
+    .protect {
         font-size: 50px;
     }
-     .hero-text{
+
+    .hero-text {
         margin-top: 10px;
         line-height: 40px;
-     }
+    }
 
-     .theme{
-       width: 665px;
+    .theme {
+        width: 665px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .theme{
+    .theme {
         max-width: 500px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .theme{
+    .theme {
         max-width: 397px
     }
 }
 
 @media screen and (max-width: 400px) {
-    .theme{
+    .theme {
         width: 536px;
     }
+}
+
+.mission-section {
+    padding: 60px 0;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 108px;
+    color: #004E35;
+    line-height: 140px;
+    margin-bottom: 83px;
+}
+
+.mission-menu {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 17px;
+}
+
+.action {
+    text-align: center;
+    max-width: 100px;
+    font-size: 20px;
+    color: #004E35;
+}
+
+.line {
+    height: 1px;
+    background-color: #004E35;
+    max-width: 750px;
+    margin: 0 auto;
+    margin-bottom: 33px;
+}
+
+.text-p {
+    font-size: 24px;
+    text-align: center;
+    color: #004E35;
+    max-width: 591px;
+    margin: 0 auto;
 }
