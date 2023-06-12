@@ -36,7 +36,7 @@ a {
     margin-left: 360px;
 }
 
-header {
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -73,7 +73,7 @@ header {
     line-height: 138px;
     letter-spacing: 20px;
 }
-.hero-section{
+.image-section{
     width: 100%;
     background-color: #C0E8C0;
     display: flex;
@@ -168,7 +168,7 @@ header {
 
 
 @media screen and (max-width: 1100px) {
-    .hero-section{
+    .image-section{
         display: flex;
         flex-direction: column;
     }
