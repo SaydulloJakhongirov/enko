@@ -92,7 +92,6 @@ a {
     margin-left: 180px;
     color: #004E35;
     line-height: 58px;
-    margin-bottom: 200px;
 }
 
 .protect {
@@ -142,6 +141,12 @@ a {
     max-width: 591px;
     margin: 0 auto;
     font-weight: 400;
+}
+
+@media screen and (max-width: 1100px) {
+    .image-section{
+        padding-bottom: 220px;
+    }
 }
 
 
@@ -247,7 +252,7 @@ a {
 
     .theme {
         width: 100%;
-    }
+    } 
 
 }
 
