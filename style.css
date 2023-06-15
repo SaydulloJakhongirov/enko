@@ -322,6 +322,7 @@ a {
         flex-direction: column;
         text-align: center;
         margin-top: -300px;
+        gap: 25px;
     }
 
     .footer-text{
